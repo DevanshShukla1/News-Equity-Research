@@ -1,10 +1,9 @@
 ![news_research_tool_Equity-Research-Analysis-](https://socialify.git.ci/mihirh19/news_research_tool_Equity-Research-Analysis-/image?description=1&font=Source%20Code%20Pro&logo=https%3A%2F%2Fgithub.com%2Fmihirh19%2Fnews_research_tool_Equity-Research-Analysis-%2Fassets%2F128199131%2F2acd1645-40a8-4d11-b63e-f4541f2db9f1&name=1&pattern=Circuit%20Board&theme=Light)
 
-# 📈 FinGuru: News Research Tool
+# Stocknews: News Research based Stock details
+Stocknews is a powerful tool designed to process and analyze news articles from URLs and PDFs. By utilizing LangChain, Google embeddings, and Streamlit, it delivers valuable insights and answers based on the content of the articles.
 
-FinGuru is a news research tool that processes and analyzes news articles from given URLs and PDF. It leverages LangChain, Google embeddings, and Streamlit to provide insights and answers based on the content of the articles.
-
-## 🎯 Features
+## Features
 
 - Fetch and parse news articles from URLs Or parse data from given pdf
 - Split articles into manageable chunks
@@ -12,7 +11,7 @@ FinGuru is a news research tool that processes and analyzes news articles from g
 - Store embeddings in a FAISS index for efficient retrieval
 - Query the processed data to get answers and sources
 
-## 🏗️ How It's Built
+##  How It's Built
 
 - Python 3.7+
 - Streamlit
@@ -141,14 +140,6 @@ streamlit run app.py
 
 2. Click "Process PDF" to start processing.
 3. Enter a query like `what is the yoy change of revenue of tata motors ? `and click `Submit` to get answer.
-
-## Author
-
-👤 **Mihir Hadavani**
-
-- Twitter: [@mihirh21](https://twitter.com/mihirh21)
-- Github: [@mihirh19](https://github.com/mihirh19)
-- LinkedIn: [@mihir-hadavani-996263232](https://linkedin.com/in/mihir-hadavani-996263232)
 
 ## Show your support
 <a href="https://www.buymeacoffee.com/mihir21"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=mihir21&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
