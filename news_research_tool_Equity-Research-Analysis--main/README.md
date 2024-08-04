@@ -5,11 +5,11 @@ Stocknews is a powerful tool designed to process and analyze news articles from 
 
 ## Features
 
-- Fetch and parse news articles from URLs Or parse data from given pdf
-- Split articles into manageable chunks
-- Create embeddings for the text using GoogleEmbedding Model
-- Store embeddings in a FAISS index for efficient retrieval
-- Query the processed data to get answers and sources
+-Fetch and parse news articles from URLs or parse data from given PDFs.
+-Split articles into manageable chunks.
+-Create embeddings for the text using GoogleEmbedding Model.
+-Store embeddings in a FAISS index for efficient retrieval.
+-Query the processed data to get answers and sources.
 
 ##  How It's Built
 
@@ -140,8 +140,5 @@ streamlit run app.py
 
 2. Click "Process PDF" to start processing.
 3. Enter a query like `what is the yoy change of revenue of tata motors ? `and click `Submit` to get answer.
-
-## Show your support
-<a href="https://www.buymeacoffee.com/mihir21"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=mihir21&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
 
 Give a ⭐️ if this project helped you!
